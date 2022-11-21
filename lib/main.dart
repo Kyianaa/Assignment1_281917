@@ -81,9 +81,9 @@ class _HomePageState extends State<HomePage> {
         var year = parsedJson["Year"];
         var descs = parsedJson["Plot"];
         var poster = parsedJson["Poster"];
-        var image = Image.network('$poster');
+        //var image = Image.network('$poster');
         desc =
-            "Search result for $selectMov is $title \n\nThis movie genre is $genre and released in $year.\n\n$descs\n\nClick link to view image link\n$poster\n$image";
+            "Search result for $selectMov is $title \n\nThis movie genre is $genre and released in $year.\n\n$descs\n\nClick link to view image link\n$poster";
       });
     } else {
       setState(() {
